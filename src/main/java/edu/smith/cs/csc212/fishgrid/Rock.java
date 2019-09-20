@@ -25,8 +25,11 @@ public class Rock extends WorldObject {
 			new Color(152,129,123),
 			new Color(138,129,141),
 			new Color(72,60,50)
+			
+			
 	};
 	
+	int color;
 	// TODO(lab): introduce a variable that is part of the class (one per Rock object) here that indexes the ROCK_COLORS array.
 	
 	/**
@@ -37,6 +40,8 @@ public class Rock extends WorldObject {
 		super(world);
 		// TODO(lab): initialize your rock color index to a random number!
 		// Note that all WorldObjects have a ``rand`` available so you don't need to make one.
+       /* int rand = rand.nextInt(ROCK_COLORS);
+		this.color = */
 	}
 
 	/**
